@@ -3,139 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MediBot - Your AI Medical Assistant</title>
+  <title>MediBot - AI Medical Assistant</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
     body {
-      background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      flex-direction: column;
+      margin: 0;
     }
-    .container {
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-      width: 90%;
-      max-width: 500px;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-    .header {
-      background: #2e8b57;
-      color: #fff;
+    .chat-container {
+      width: 400px;
+      max-width: 90%;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       padding: 20px;
+    }
+    h1 {
       text-align: center;
-      font-size: 1.5em;
-      font-weight: bold;
+      color: #00796b;
     }
-    #chat-box {
-      padding: 15px;
-      height: 350px;
+    .messages {
+      height: 300px;
       overflow-y: auto;
-      background: #f7f7f7;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 10px;
     }
-    .message {
-      margin: 10px 0;
-      max-width: 75%;
-      padding: 12px 16px;
-      border-radius: 20px;
-      font-size: 0.95em;
-      line-height: 1.4;
+    .user, .bot {
+      margin: 5px 0;
+      padding: 8px;
+      border-radius: 6px;
     }
     .user {
-      background: #2e8b57;
-      color: white;
-      margin-left: auto;
-      border-bottom-right-radius: 4px;
+      background: #e0f2f1;
+      text-align: right;
     }
     .bot {
-      background: #e5e5e5;
-      color: #333;
-      margin-right: auto;
-      border-bottom-left-radius: 4px;
-    }
-    .input-box {
-      display: flex;
-      border-top: 1px solid #ddd;
+      background: #c8e6c9;
+      text-align: left;
     }
     input {
-      flex: 1;
-      padding: 15px;
-      border: none;
-      font-size: 1em;
+      width: calc(100% - 20px);
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 10px;
     }
     button {
-      background: #2e8b57;
-      color: #fff;
+      width: 100%;
+      padding: 10px;
+      background: #00796b;
+      color: white;
       border: none;
-      padding: 0 20px;
+      border-radius: 6px;
       cursor: pointer;
-      font-size: 1em;
-      transition: 0.3s;
     }
     button:hover {
-      background: #256f44;
+      background: #004d40;
     }
   </style>
 </head>
 <body>
-
-<div class="container">
-  <div class="header">MediBot</div>
-  <div id="chat-box"></div>
-  <div class="input-box">
-    <input type="text" id="user-input" placeholder="Type your medical query...">
+  <div class="chat-container">
+    <h1>MediBot</h1>
+    <div class="messages" id="messages"></div>
+    <input type="text" id="userInput" placeholder="Type your symptoms..." />
     <button onclick="sendMessage()">Send</button>
   </div>
-</div>
 
-<script>
-  const backendUrl = "https://medibot-backend-ibpy.onrender.com"; // Your backend URL
+  <script>
+    const API_URL = "https://medibot-backend-ibpy.onrender.com/chat"; // Your Render backend URL
 
-  function appendMessage(text, sender) {
-    const chatBox = document.getElementById('chat-box');
-    const msg = document.createElement('div');
-    msg.className = `message ${sender}`;
-    msg.textContent = text;
-    chatBox.appendChild(msg);
-    chatBox.scrollTop = chatBox.scrollHeight;
-  }
+    async function sendMessage() {
+      const input = document.getElementById("userInput");
+      const message = input.value.trim();
+      if (!message) return;
 
-  async function sendMessage() {
-    const input = document.getElementById('user-input');
-    const message = input.value.trim();
-    if (!message) return;
+      addMessage("user", message);
+      input.value = "";
 
-    appendMessage(message, 'user');
-    input.value = '';
-
-    try {
-      const response = await fetch(`${backendUrl}/chat`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+      const response = await fetch(API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message })
       });
+
       const data = await response.json();
-      appendMessage(data.reply || 'No response from bot.', 'bot');
-    } catch (error) {
-      appendMessage('Error: Cannot connect to backend!', 'bot');
+      addMessage("bot", data.reply || "No response from MediBot.");
     }
-  }
 
-  // Send message on Enter key
-  document.getElementById('user-input').addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') sendMessage();
-  });
-</script>
-
+    function addMessage(sender, text) {
+      const messages = document.getElementById("messages");
+      const div = document.createElement("div");
+      div.className = sender;
+      div.textContent = text;
+      messages.appendChild(div);
+      messages.scrollTop = messages.scrollHeight;
+    }
+  </script>
 </body>
 </html>
