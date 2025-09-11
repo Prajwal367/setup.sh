@@ -1,65 +1,50 @@
-import express from "express";
-import fetch from "node-fetch";
-import cors from "cors";
-import dotenv from "dotenv";
+const express = require("express");
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const fetch = require("node-fetch");
 
-dotenv.config();
 const app = express();
-
 app.use(cors());
-app.use(express.json());
+app.use(bodyParser.json());
 
+// Health check
 app.get("/", (req, res) => {
-  res.send("✅ Backend is running...");
+  res.json({ message: "MediBot Backend running with OpenFDA API" });
 });
 
+// Chat endpoint
 app.post("/chat", async (req, res) => {
   try {
     const { message } = req.body;
-
     if (!message) {
       return res.status(400).json({ error: "Message is required" });
     }
 
-    // Hugging Face Inference API call
+    // Call OpenFDA API
     const response = await fetch(
-      "https://api-inference.huggingface.co/models/google/flan-t5-base",
-      {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${process.env.HF_API_KEY}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          inputs: `You are a medical assistant. Patient says: "${message}". Provide safe, general medical advice only.`,
-        }),
-      }
+      `https://api.fda.gov/drug/label.json?search=${encodeURIComponent(message)}&limit=1`
     );
-
-    if (!response.ok) {
-      const errorText = await response.text();
-      console.error("❌ HF API error:", errorText);
-      return res
-        .status(response.status)
-        .json({ error: "HF API error", details: errorText });
-    }
-
     const data = await response.json();
 
-    // Hugging Face API returns array sometimes
-    const botReply =
-      (data[0] && data[0].generated_text) ||
-      data.generated_text ||
-      "I'm not sure, please consult a doctor.";
+    if (data.results && data.results.length > 0) {
+      const drug = data.results[0];
+      const medicineName = drug.openfda?.brand_name?.[0] || "Unknown medicine";
+      const purpose = drug.purpose?.[0] || "No purpose info available";
+      const warning = drug.warning?.[0] || "No warnings available";
 
-    res.json({ reply: botReply });
+      res.json({
+        reply: `💊 Medicine: ${medicineName}\n📌 Purpose: ${purpose}\n⚠️ Warning: ${warning}`
+      });
+    } else {
+      res.json({
+        reply: "❌ Sorry, I couldn't find any medicine info for that symptom."
+      });
+    }
   } catch (error) {
-    console.error("❌ Backend Error:", error);
-    res.status(500).json({ error: "Backend error", details: error.message });
+    console.error("Backend Error:", error);
+    res.status(500).json({ error: "Failed to fetch from OpenFDA API" });
   }
 });
 
 const PORT = process.env.PORT || 10000;
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-});
+app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
