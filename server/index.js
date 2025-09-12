@@ -1,50 +1,53 @@
-const express = require("express");
-const cors = require("cors");
-const bodyParser = require("body-parser");
-const fetch = require("node-fetch");
+// index.js (backend)
 
+import express from "express";
+import fetch from "node-fetch";
+import cors from "cors";
+import dotenv from "dotenv";
+
+dotenv.config();
 const app = express();
 app.use(cors());
-app.use(bodyParser.json());
+app.use(express.json());
 
-// Health check
-app.get("/", (req, res) => {
-  res.json({ message: "MediBot Backend running with OpenFDA API" });
-});
+const PORT = process.env.PORT || 5000;
 
-// Chat endpoint
+// Example: using openFDA API
 app.post("/chat", async (req, res) => {
+  const { message } = req.body;
+
   try {
-    const { message } = req.body;
-    if (!message) {
-      return res.status(400).json({ error: "Message is required" });
-    }
-
-    // Call OpenFDA API
+    // Call openFDA API
     const response = await fetch(
-      `https://api.fda.gov/drug/label.json?search=${encodeURIComponent(message)}&limit=1`
+      `https://api.fda.gov/drug/label.json?search=openfda.generic_name:${message}&limit=1`
     );
-    const data = await response.json();
 
-    if (data.results && data.results.length > 0) {
-      const drug = data.results[0];
-      const medicineName = drug.openfda?.brand_name?.[0] || "Unknown medicine";
-      const purpose = drug.purpose?.[0] || "No purpose info available";
-      const warning = drug.warning?.[0] || "No warnings available";
-
-      res.json({
-        reply: `💊 Medicine: ${medicineName}\n📌 Purpose: ${purpose}\n⚠️ Warning: ${warning}`
-      });
-    } else {
-      res.json({
-        reply: "❌ Sorry, I couldn't find any medicine info for that symptom."
-      });
+    if (!response.ok) {
+      throw new Error(`FDA API error: ${response.status}`);
     }
-  } catch (error) {
-    console.error("Backend Error:", error);
-    res.status(500).json({ error: "Failed to fetch from OpenFDA API" });
+
+    const data = await response.json();
+    const drug = data.results?.[0];
+
+    const medicineName =
+      drug?.openfda?.generic_name?.[0] || "Unknown medicine";
+    const purpose =
+      drug?.purpose?.[0] || "No purpose info available";
+
+    // Smart fallback for warnings
+    const warning =
+      drug?.warnings?.[0] ||
+      "⚠️ General Warning: Consult a doctor before use. Side effects may vary depending on patient condition.";
+
+    const reply = `💊 Medicine: ${medicineName}\n📌 Purpose: ${purpose}\n⚠️ Warning: ${warning}`;
+
+    res.json({ reply });
+  } catch (err) {
+    console.error("❌ Backend Error:", err);
+    res.status(500).json({ reply: "Server error, please try again later." });
   }
 });
 
-const PORT = process.env.PORT || 10000;
-app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`✅ Server running on port ${PORT}`);
+});
