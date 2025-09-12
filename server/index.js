@@ -3,9 +3,7 @@
 import express from "express";
 import fetch from "node-fetch";
 import cors from "cors";
-import dotenv from "dotenv";
 
-dotenv.config();
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -37,7 +35,7 @@ app.post("/chat", async (req, res) => {
     // Smart fallback for warnings
     const warning =
       drug?.warnings?.[0] ||
-      "⚠️ General Warning: Consult a doctor before use. Side effects may vary depending on patient condition.";
+      ⚠️ General Warning: Consult a doctor before use. Side effects may vary depending on patient condition.";
 
     const reply = `💊 Medicine: ${medicineName}\n📌 Purpose: ${purpose}\n⚠️ Warning: ${warning}`;
 
