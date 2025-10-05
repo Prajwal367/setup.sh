@@ -238,9 +238,7 @@
   "Conjunctivitis": {
     "medicine": "Antibiotic eye drops, Artificial tears",
     "purpose": "Relieves red eye and irritation"
-  }
-}
-[
+  },
   {
     "disease": "Migraine",
     "medicine": ["Sumatriptan", "Ergotamine"],
@@ -440,9 +438,7 @@
     "disease": "Heart Failure",
     "medicine": ["Digoxin", "Furosemide"],
     "warning": "⚠️ Regular monitoring of heart function required."
-  }
-]
-[
+  },
   {
     "disease": "COVID-19",
     "medicine": ["Paracetamol", "Ivermectin", "Remdesivir"],
@@ -648,4 +644,4 @@
     "medicine": ["Acyclovir", "Supportive care"],
     "warning": "⚠️ Requires hospitalization and monitoring."
   }
-]
+}
