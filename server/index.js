@@ -1,44 +1,39 @@
 import express from "express";
-import cors from "cors";
 import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import cors from "cors";
+
+// ✅ __dirname fix for ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
-const PORT = process.env.PORT || 5000;
-
 app.use(cors());
 app.use(express.json());
 
-// diseases.json ko read karo
-const diseases = JSON.parse(fs.readFileSync("./diseases.json", "utf-8"));
+const PORT = process.env.PORT || 5000;
 
-// Root route
-app.get("/", (req, res) => {
-  res.json({ message: "MediBot API running ✅", creator: "Prajwal Mitra" });
-});
+// ✅ Always read diseases.json with absolute path
+const diseasesPath = path.join(__dirname, "diseases.json");
+const diseases = JSON.parse(fs.readFileSync(diseasesPath, "utf-8"));
 
-// Chat endpoint
 app.post("/chat", (req, res) => {
   const { message } = req.body;
-
-  if (!message) {
-    return res.json({ reply: "❌ Please provide symptoms or disease name." });
-  }
-
   const query = message.toLowerCase();
-  const disease = diseases[query];
 
-  if (disease) {
-    const reply = `💊 Medicine: ${disease.medicine}\n⚠️ Warning: ${disease.warning}`;
+  const found = diseases.find((d) => d.disease.toLowerCase() === query);
+
+  if (found) {
+    const reply = `💊 Medicine: ${found.medicine}\n📌 Purpose: ${found.purpose}\n⚠️ Warning: ${found.warning}`;
     res.json({ reply });
   } else {
     res.json({
-      reply:
-        "⚠️ Sorry, I don’t have information about this disease. Please consult a doctor."
+      reply: "❌ Sorry, no information found. Please consult a doctor."
     });
   }
 });
 
-// Start server
 app.listen(PORT, () => {
   console.log(`✅ Server running on port ${PORT}`);
 });
