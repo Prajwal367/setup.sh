@@ -1765,5 +1765,13 @@
       "Melatonin"
     ],
     "warning": "⚠️ Avoid long-term use of sedatives."
+  },
+  {
+    "disease": "Anxiety Variant 6",
+    "medicine": [
+      "Diazepam",
+      "Alprazolam"
+    ],
+    "warning": "⚠️ Can be addictive, use short term only."
   }
 ]
