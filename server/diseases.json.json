@@ -1,0 +1,1769 @@
+[
+  {
+    "disease": "COVID-19",
+    "medicine": [
+      "Paracetamol",
+      "Ivermectin",
+      "Remdesivir"
+    ],
+    "warning": "⚠️ Supportive treatment, severe cases require hospitalization."
+  },
+  {
+    "disease": "Common Cold",
+    "medicine": [
+      "Antihistamines",
+      "Paracetamol",
+      "Decongestants"
+    ],
+    "warning": "⚠️ Usually self-limiting, avoid unnecessary antibiotics."
+  },
+  {
+    "disease": "Fever",
+    "medicine": [
+      "Paracetamol",
+      "Ibuprofen"
+    ],
+    "warning": "⚠️ Monitor temperature, consult doctor if high fever persists."
+  },
+  {
+    "disease": "Migraine",
+    "medicine": [
+      "Sumatriptan",
+      "Rizatriptan"
+    ],
+    "warning": "⚠️ Avoid overuse, may cause rebound headaches."
+  },
+  {
+    "disease": "Gastritis",
+    "medicine": [
+      "Omeprazole",
+      "Pantoprazole"
+    ],
+    "warning": "⚠️ Do not use long-term without medical advice."
+  },
+  {
+    "disease": "Diarrhea",
+    "medicine": [
+      "ORS Solution",
+      "Loperamide"
+    ],
+    "warning": "⚠️ Consult doctor if symptoms persist beyond 2 days."
+  },
+  {
+    "disease": "Constipation",
+    "medicine": [
+      "Lactulose",
+      "Bisacodyl"
+    ],
+    "warning": "⚠️ Prolonged use may cause dependency."
+  },
+  {
+    "disease": "Depression",
+    "medicine": [
+      "Fluoxetine",
+      "Sertraline"
+    ],
+    "warning": "⚠️ Do not stop suddenly without doctor’s advice."
+  },
+  {
+    "disease": "Anxiety",
+    "medicine": [
+      "Diazepam",
+      "Alprazolam"
+    ],
+    "warning": "⚠️ Can be addictive, use short term only."
+  },
+  {
+    "disease": "Insomnia",
+    "medicine": [
+      "Zolpidem",
+      "Melatonin"
+    ],
+    "warning": "⚠️ Avoid long-term use of sedatives."
+  },
+  {
+    "disease": "Arthritis",
+    "medicine": [
+      "Ibuprofen",
+      "Naproxen"
+    ],
+    "warning": "⚠️ Can cause stomach irritation and kidney issues."
+  },
+  {
+    "disease": "Tuberculosis",
+    "medicine": [
+      "Rifampicin",
+      "Isoniazid"
+    ],
+    "warning": "⚠️ Long treatment duration, follow doctor’s instructions."
+  },
+  {
+    "disease": "Pneumonia",
+    "medicine": [
+      "Amoxicillin",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course."
+  },
+  {
+    "disease": "UTI",
+    "medicine": [
+      "Nitrofurantoin",
+      "Ciprofloxacin"
+    ],
+    "warning": "⚠️ Drink plenty of water and finish antibiotics."
+  },
+  {
+    "disease": "Kidney Stones",
+    "medicine": [
+      "Tamsulosin",
+      "Pain relievers"
+    ],
+    "warning": "⚠️ Requires medical checkup for stone size."
+  },
+  {
+    "disease": "Allergy",
+    "medicine": [
+      "Cetirizine",
+      "Loratadine"
+    ],
+    "warning": "⚠️ May cause drowsiness in some patients."
+  },
+  {
+    "disease": "Asthma",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Budesonide inhaler"
+    ],
+    "warning": "⚠️ Inhalers must be used as per doctor’s advice."
+  },
+  {
+    "disease": "COPD",
+    "medicine": [
+      "Tiotropium",
+      "Theophylline"
+    ],
+    "warning": "⚠️ Smoking cessation is most important."
+  },
+  {
+    "disease": "Hypertension",
+    "medicine": [
+      "Amlodipine",
+      "Losartan"
+    ],
+    "warning": "⚠️ Do not stop abruptly; risk of rebound hypertension."
+  },
+  {
+    "disease": "Diabetes Type 2",
+    "medicine": [
+      "Metformin",
+      "Glimepiride"
+    ],
+    "warning": "⚠️ Regular monitoring of blood sugar is essential."
+  },
+  {
+    "disease": "Diabetes Type 1",
+    "medicine": [
+      "Insulin injections"
+    ],
+    "warning": "⚠️ Requires lifelong insulin therapy."
+  },
+  {
+    "disease": "Obesity",
+    "medicine": [
+      "Orlistat",
+      "Metformin"
+    ],
+    "warning": "⚠️ Lifestyle change is necessary along with medicines."
+  },
+  {
+    "disease": "Stroke",
+    "medicine": [
+      "Aspirin",
+      "Clopidogrel"
+    ],
+    "warning": "⚠️ Emergency condition, hospital care needed."
+  },
+  {
+    "disease": "Heart Failure",
+    "medicine": [
+      "Digoxin",
+      "Furosemide"
+    ],
+    "warning": "⚠️ Regular monitoring of heart function required."
+  },
+  {
+    "disease": "Angina",
+    "medicine": [
+      "Nitroglycerin",
+      "Aspirin"
+    ],
+    "warning": "⚠️ Do not exceed dosage; risk of low blood pressure."
+  },
+  {
+    "disease": "Anemia",
+    "medicine": [
+      "Iron supplements",
+      "Folic acid"
+    ],
+    "warning": "⚠️ Identify root cause of anemia before treatment."
+  },
+  {
+    "disease": "Vitamin D Deficiency",
+    "medicine": [
+      "Cholecalciferol",
+      "Ergocalciferol"
+    ],
+    "warning": "⚠️ Avoid overdose, may cause toxicity."
+  },
+  {
+    "disease": "PCOS",
+    "medicine": [
+      "Metformin",
+      "Clomiphene"
+    ],
+    "warning": "⚠️ Requires regular hormone checkups."
+  },
+  {
+    "disease": "Infertility",
+    "medicine": [
+      "Clomiphene",
+      "Letrozole"
+    ],
+    "warning": "⚠️ Must be prescribed by fertility specialist."
+  },
+  {
+    "disease": "Cancer Pain",
+    "medicine": [
+      "Morphine",
+      "Fentanyl patches"
+    ],
+    "warning": "⚠️ Highly addictive, use under strict supervision."
+  },
+  {
+    "disease": "Hepatitis B",
+    "medicine": [
+      "Tenofovir",
+      "Entecavir"
+    ],
+    "warning": "⚠️ Requires regular liver monitoring."
+  },
+  {
+    "disease": "Hepatitis C",
+    "medicine": [
+      "Sofosbuvir",
+      "Ledipasvir"
+    ],
+    "warning": "⚠️ Must be prescribed by a specialist."
+  },
+  {
+    "disease": "HIV/AIDS",
+    "medicine": [
+      "Zidovudine",
+      "Efavirenz"
+    ],
+    "warning": "⚠️ Lifelong treatment, adherence is critical."
+  },
+  {
+    "disease": "Psoriasis",
+    "medicine": [
+      "Methotrexate",
+      "Topical steroids"
+    ],
+    "warning": "⚠️ Requires doctor monitoring for side effects."
+  },
+  {
+    "disease": "Chickenpox",
+    "medicine": [
+      "Acyclovir",
+      "Antihistamines"
+    ],
+    "warning": "⚠️ Avoid aspirin in children due to Reye’s syndrome."
+  },
+  {
+    "disease": "Dengue",
+    "medicine": [
+      "Paracetamol",
+      "IV fluids"
+    ],
+    "warning": "⚠️ Avoid NSAIDs like Ibuprofen, risk of bleeding."
+  },
+  {
+    "disease": "Malaria",
+    "medicine": [
+      "Chloroquine",
+      "Artemisinin-based drugs"
+    ],
+    "warning": "⚠️ Choice of drug depends on malaria type and resistance."
+  },
+  {
+    "disease": "Typhoid Fever",
+    "medicine": [
+      "Ceftriaxone",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course to avoid relapse."
+  },
+  {
+    "disease": "Cholera",
+    "medicine": [
+      "ORS Solution",
+      "Doxycycline"
+    ],
+    "warning": "⚠️ Hydration is the most important treatment."
+  },
+  {
+    "disease": "Bronchitis",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Cough suppressants"
+    ],
+    "warning": "⚠️ Usually viral, antibiotics not always needed."
+  },
+  {
+    "disease": "Acne",
+    "medicine": [
+      "Benzoyl Peroxide",
+      "Isotretinoin"
+    ],
+    "warning": "⚠️ Isotretinoin must not be used in pregnancy."
+  },
+  {
+    "disease": "Scabies",
+    "medicine": [
+      "Permethrin cream",
+      "Ivermectin"
+    ],
+    "warning": "⚠️ Treat all close contacts to prevent reinfection."
+  },
+  {
+    "disease": "COVID-19 Variant 2",
+    "medicine": [
+      "Paracetamol",
+      "Ivermectin",
+      "Remdesivir"
+    ],
+    "warning": "⚠️ Supportive treatment, severe cases require hospitalization."
+  },
+  {
+    "disease": "Common Cold Variant 2",
+    "medicine": [
+      "Antihistamines",
+      "Paracetamol",
+      "Decongestants"
+    ],
+    "warning": "⚠️ Usually self-limiting, avoid unnecessary antibiotics."
+  },
+  {
+    "disease": "Fever Variant 2",
+    "medicine": [
+      "Paracetamol",
+      "Ibuprofen"
+    ],
+    "warning": "⚠️ Monitor temperature, consult doctor if high fever persists."
+  },
+  {
+    "disease": "Migraine Variant 2",
+    "medicine": [
+      "Sumatriptan",
+      "Rizatriptan"
+    ],
+    "warning": "⚠️ Avoid overuse, may cause rebound headaches."
+  },
+  {
+    "disease": "Gastritis Variant 2",
+    "medicine": [
+      "Omeprazole",
+      "Pantoprazole"
+    ],
+    "warning": "⚠️ Do not use long-term without medical advice."
+  },
+  {
+    "disease": "Diarrhea Variant 2",
+    "medicine": [
+      "ORS Solution",
+      "Loperamide"
+    ],
+    "warning": "⚠️ Consult doctor if symptoms persist beyond 2 days."
+  },
+  {
+    "disease": "Constipation Variant 2",
+    "medicine": [
+      "Lactulose",
+      "Bisacodyl"
+    ],
+    "warning": "⚠️ Prolonged use may cause dependency."
+  },
+  {
+    "disease": "Depression Variant 2",
+    "medicine": [
+      "Fluoxetine",
+      "Sertraline"
+    ],
+    "warning": "⚠️ Do not stop suddenly without doctor’s advice."
+  },
+  {
+    "disease": "Anxiety Variant 2",
+    "medicine": [
+      "Diazepam",
+      "Alprazolam"
+    ],
+    "warning": "⚠️ Can be addictive, use short term only."
+  },
+  {
+    "disease": "Insomnia Variant 2",
+    "medicine": [
+      "Zolpidem",
+      "Melatonin"
+    ],
+    "warning": "⚠️ Avoid long-term use of sedatives."
+  },
+  {
+    "disease": "Arthritis Variant 2",
+    "medicine": [
+      "Ibuprofen",
+      "Naproxen"
+    ],
+    "warning": "⚠️ Can cause stomach irritation and kidney issues."
+  },
+  {
+    "disease": "Tuberculosis Variant 2",
+    "medicine": [
+      "Rifampicin",
+      "Isoniazid"
+    ],
+    "warning": "⚠️ Long treatment duration, follow doctor’s instructions."
+  },
+  {
+    "disease": "Pneumonia Variant 2",
+    "medicine": [
+      "Amoxicillin",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course."
+  },
+  {
+    "disease": "UTI Variant 2",
+    "medicine": [
+      "Nitrofurantoin",
+      "Ciprofloxacin"
+    ],
+    "warning": "⚠️ Drink plenty of water and finish antibiotics."
+  },
+  {
+    "disease": "Kidney Stones Variant 2",
+    "medicine": [
+      "Tamsulosin",
+      "Pain relievers"
+    ],
+    "warning": "⚠️ Requires medical checkup for stone size."
+  },
+  {
+    "disease": "Allergy Variant 2",
+    "medicine": [
+      "Cetirizine",
+      "Loratadine"
+    ],
+    "warning": "⚠️ May cause drowsiness in some patients."
+  },
+  {
+    "disease": "Asthma Variant 2",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Budesonide inhaler"
+    ],
+    "warning": "⚠️ Inhalers must be used as per doctor’s advice."
+  },
+  {
+    "disease": "COPD Variant 2",
+    "medicine": [
+      "Tiotropium",
+      "Theophylline"
+    ],
+    "warning": "⚠️ Smoking cessation is most important."
+  },
+  {
+    "disease": "Hypertension Variant 2",
+    "medicine": [
+      "Amlodipine",
+      "Losartan"
+    ],
+    "warning": "⚠️ Do not stop abruptly; risk of rebound hypertension."
+  },
+  {
+    "disease": "Diabetes Type 2 Variant 2",
+    "medicine": [
+      "Metformin",
+      "Glimepiride"
+    ],
+    "warning": "⚠️ Regular monitoring of blood sugar is essential."
+  },
+  {
+    "disease": "Diabetes Type 1 Variant 2",
+    "medicine": [
+      "Insulin injections"
+    ],
+    "warning": "⚠️ Requires lifelong insulin therapy."
+  },
+  {
+    "disease": "Obesity Variant 2",
+    "medicine": [
+      "Orlistat",
+      "Metformin"
+    ],
+    "warning": "⚠️ Lifestyle change is necessary along with medicines."
+  },
+  {
+    "disease": "Stroke Variant 2",
+    "medicine": [
+      "Aspirin",
+      "Clopidogrel"
+    ],
+    "warning": "⚠️ Emergency condition, hospital care needed."
+  },
+  {
+    "disease": "Heart Failure Variant 2",
+    "medicine": [
+      "Digoxin",
+      "Furosemide"
+    ],
+    "warning": "⚠️ Regular monitoring of heart function required."
+  },
+  {
+    "disease": "Angina Variant 2",
+    "medicine": [
+      "Nitroglycerin",
+      "Aspirin"
+    ],
+    "warning": "⚠️ Do not exceed dosage; risk of low blood pressure."
+  },
+  {
+    "disease": "Anemia Variant 2",
+    "medicine": [
+      "Iron supplements",
+      "Folic acid"
+    ],
+    "warning": "⚠️ Identify root cause of anemia before treatment."
+  },
+  {
+    "disease": "Vitamin D Deficiency Variant 2",
+    "medicine": [
+      "Cholecalciferol",
+      "Ergocalciferol"
+    ],
+    "warning": "⚠️ Avoid overdose, may cause toxicity."
+  },
+  {
+    "disease": "PCOS Variant 2",
+    "medicine": [
+      "Metformin",
+      "Clomiphene"
+    ],
+    "warning": "⚠️ Requires regular hormone checkups."
+  },
+  {
+    "disease": "Infertility Variant 2",
+    "medicine": [
+      "Clomiphene",
+      "Letrozole"
+    ],
+    "warning": "⚠️ Must be prescribed by fertility specialist."
+  },
+  {
+    "disease": "Cancer Pain Variant 2",
+    "medicine": [
+      "Morphine",
+      "Fentanyl patches"
+    ],
+    "warning": "⚠️ Highly addictive, use under strict supervision."
+  },
+  {
+    "disease": "Hepatitis B Variant 2",
+    "medicine": [
+      "Tenofovir",
+      "Entecavir"
+    ],
+    "warning": "⚠️ Requires regular liver monitoring."
+  },
+  {
+    "disease": "Hepatitis C Variant 2",
+    "medicine": [
+      "Sofosbuvir",
+      "Ledipasvir"
+    ],
+    "warning": "⚠️ Must be prescribed by a specialist."
+  },
+  {
+    "disease": "HIV/AIDS Variant 2",
+    "medicine": [
+      "Zidovudine",
+      "Efavirenz"
+    ],
+    "warning": "⚠️ Lifelong treatment, adherence is critical."
+  },
+  {
+    "disease": "Psoriasis Variant 2",
+    "medicine": [
+      "Methotrexate",
+      "Topical steroids"
+    ],
+    "warning": "⚠️ Requires doctor monitoring for side effects."
+  },
+  {
+    "disease": "Chickenpox Variant 2",
+    "medicine": [
+      "Acyclovir",
+      "Antihistamines"
+    ],
+    "warning": "⚠️ Avoid aspirin in children due to Reye’s syndrome."
+  },
+  {
+    "disease": "Dengue Variant 2",
+    "medicine": [
+      "Paracetamol",
+      "IV fluids"
+    ],
+    "warning": "⚠️ Avoid NSAIDs like Ibuprofen, risk of bleeding."
+  },
+  {
+    "disease": "Malaria Variant 2",
+    "medicine": [
+      "Chloroquine",
+      "Artemisinin-based drugs"
+    ],
+    "warning": "⚠️ Choice of drug depends on malaria type and resistance."
+  },
+  {
+    "disease": "Typhoid Fever Variant 2",
+    "medicine": [
+      "Ceftriaxone",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course to avoid relapse."
+  },
+  {
+    "disease": "Cholera Variant 2",
+    "medicine": [
+      "ORS Solution",
+      "Doxycycline"
+    ],
+    "warning": "⚠️ Hydration is the most important treatment."
+  },
+  {
+    "disease": "Bronchitis Variant 2",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Cough suppressants"
+    ],
+    "warning": "⚠️ Usually viral, antibiotics not always needed."
+  },
+  {
+    "disease": "Acne Variant 2",
+    "medicine": [
+      "Benzoyl Peroxide",
+      "Isotretinoin"
+    ],
+    "warning": "⚠️ Isotretinoin must not be used in pregnancy."
+  },
+  {
+    "disease": "Scabies Variant 2",
+    "medicine": [
+      "Permethrin cream",
+      "Ivermectin"
+    ],
+    "warning": "⚠️ Treat all close contacts to prevent reinfection."
+  },
+  {
+    "disease": "COVID-19 Variant 3",
+    "medicine": [
+      "Paracetamol",
+      "Ivermectin",
+      "Remdesivir"
+    ],
+    "warning": "⚠️ Supportive treatment, severe cases require hospitalization."
+  },
+  {
+    "disease": "Common Cold Variant 3",
+    "medicine": [
+      "Antihistamines",
+      "Paracetamol",
+      "Decongestants"
+    ],
+    "warning": "⚠️ Usually self-limiting, avoid unnecessary antibiotics."
+  },
+  {
+    "disease": "Fever Variant 3",
+    "medicine": [
+      "Paracetamol",
+      "Ibuprofen"
+    ],
+    "warning": "⚠️ Monitor temperature, consult doctor if high fever persists."
+  },
+  {
+    "disease": "Migraine Variant 3",
+    "medicine": [
+      "Sumatriptan",
+      "Rizatriptan"
+    ],
+    "warning": "⚠️ Avoid overuse, may cause rebound headaches."
+  },
+  {
+    "disease": "Gastritis Variant 3",
+    "medicine": [
+      "Omeprazole",
+      "Pantoprazole"
+    ],
+    "warning": "⚠️ Do not use long-term without medical advice."
+  },
+  {
+    "disease": "Diarrhea Variant 3",
+    "medicine": [
+      "ORS Solution",
+      "Loperamide"
+    ],
+    "warning": "⚠️ Consult doctor if symptoms persist beyond 2 days."
+  },
+  {
+    "disease": "Constipation Variant 3",
+    "medicine": [
+      "Lactulose",
+      "Bisacodyl"
+    ],
+    "warning": "⚠️ Prolonged use may cause dependency."
+  },
+  {
+    "disease": "Depression Variant 3",
+    "medicine": [
+      "Fluoxetine",
+      "Sertraline"
+    ],
+    "warning": "⚠️ Do not stop suddenly without doctor’s advice."
+  },
+  {
+    "disease": "Anxiety Variant 3",
+    "medicine": [
+      "Diazepam",
+      "Alprazolam"
+    ],
+    "warning": "⚠️ Can be addictive, use short term only."
+  },
+  {
+    "disease": "Insomnia Variant 3",
+    "medicine": [
+      "Zolpidem",
+      "Melatonin"
+    ],
+    "warning": "⚠️ Avoid long-term use of sedatives."
+  },
+  {
+    "disease": "Arthritis Variant 3",
+    "medicine": [
+      "Ibuprofen",
+      "Naproxen"
+    ],
+    "warning": "⚠️ Can cause stomach irritation and kidney issues."
+  },
+  {
+    "disease": "Tuberculosis Variant 3",
+    "medicine": [
+      "Rifampicin",
+      "Isoniazid"
+    ],
+    "warning": "⚠️ Long treatment duration, follow doctor’s instructions."
+  },
+  {
+    "disease": "Pneumonia Variant 3",
+    "medicine": [
+      "Amoxicillin",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course."
+  },
+  {
+    "disease": "UTI Variant 3",
+    "medicine": [
+      "Nitrofurantoin",
+      "Ciprofloxacin"
+    ],
+    "warning": "⚠️ Drink plenty of water and finish antibiotics."
+  },
+  {
+    "disease": "Kidney Stones Variant 3",
+    "medicine": [
+      "Tamsulosin",
+      "Pain relievers"
+    ],
+    "warning": "⚠️ Requires medical checkup for stone size."
+  },
+  {
+    "disease": "Allergy Variant 3",
+    "medicine": [
+      "Cetirizine",
+      "Loratadine"
+    ],
+    "warning": "⚠️ May cause drowsiness in some patients."
+  },
+  {
+    "disease": "Asthma Variant 3",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Budesonide inhaler"
+    ],
+    "warning": "⚠️ Inhalers must be used as per doctor’s advice."
+  },
+  {
+    "disease": "COPD Variant 3",
+    "medicine": [
+      "Tiotropium",
+      "Theophylline"
+    ],
+    "warning": "⚠️ Smoking cessation is most important."
+  },
+  {
+    "disease": "Hypertension Variant 3",
+    "medicine": [
+      "Amlodipine",
+      "Losartan"
+    ],
+    "warning": "⚠️ Do not stop abruptly; risk of rebound hypertension."
+  },
+  {
+    "disease": "Diabetes Type 2 Variant 3",
+    "medicine": [
+      "Metformin",
+      "Glimepiride"
+    ],
+    "warning": "⚠️ Regular monitoring of blood sugar is essential."
+  },
+  {
+    "disease": "Diabetes Type 1 Variant 3",
+    "medicine": [
+      "Insulin injections"
+    ],
+    "warning": "⚠️ Requires lifelong insulin therapy."
+  },
+  {
+    "disease": "Obesity Variant 3",
+    "medicine": [
+      "Orlistat",
+      "Metformin"
+    ],
+    "warning": "⚠️ Lifestyle change is necessary along with medicines."
+  },
+  {
+    "disease": "Stroke Variant 3",
+    "medicine": [
+      "Aspirin",
+      "Clopidogrel"
+    ],
+    "warning": "⚠️ Emergency condition, hospital care needed."
+  },
+  {
+    "disease": "Heart Failure Variant 3",
+    "medicine": [
+      "Digoxin",
+      "Furosemide"
+    ],
+    "warning": "⚠️ Regular monitoring of heart function required."
+  },
+  {
+    "disease": "Angina Variant 3",
+    "medicine": [
+      "Nitroglycerin",
+      "Aspirin"
+    ],
+    "warning": "⚠️ Do not exceed dosage; risk of low blood pressure."
+  },
+  {
+    "disease": "Anemia Variant 3",
+    "medicine": [
+      "Iron supplements",
+      "Folic acid"
+    ],
+    "warning": "⚠️ Identify root cause of anemia before treatment."
+  },
+  {
+    "disease": "Vitamin D Deficiency Variant 3",
+    "medicine": [
+      "Cholecalciferol",
+      "Ergocalciferol"
+    ],
+    "warning": "⚠️ Avoid overdose, may cause toxicity."
+  },
+  {
+    "disease": "PCOS Variant 3",
+    "medicine": [
+      "Metformin",
+      "Clomiphene"
+    ],
+    "warning": "⚠️ Requires regular hormone checkups."
+  },
+  {
+    "disease": "Infertility Variant 3",
+    "medicine": [
+      "Clomiphene",
+      "Letrozole"
+    ],
+    "warning": "⚠️ Must be prescribed by fertility specialist."
+  },
+  {
+    "disease": "Cancer Pain Variant 3",
+    "medicine": [
+      "Morphine",
+      "Fentanyl patches"
+    ],
+    "warning": "⚠️ Highly addictive, use under strict supervision."
+  },
+  {
+    "disease": "Hepatitis B Variant 3",
+    "medicine": [
+      "Tenofovir",
+      "Entecavir"
+    ],
+    "warning": "⚠️ Requires regular liver monitoring."
+  },
+  {
+    "disease": "Hepatitis C Variant 3",
+    "medicine": [
+      "Sofosbuvir",
+      "Ledipasvir"
+    ],
+    "warning": "⚠️ Must be prescribed by a specialist."
+  },
+  {
+    "disease": "HIV/AIDS Variant 3",
+    "medicine": [
+      "Zidovudine",
+      "Efavirenz"
+    ],
+    "warning": "⚠️ Lifelong treatment, adherence is critical."
+  },
+  {
+    "disease": "Psoriasis Variant 3",
+    "medicine": [
+      "Methotrexate",
+      "Topical steroids"
+    ],
+    "warning": "⚠️ Requires doctor monitoring for side effects."
+  },
+  {
+    "disease": "Chickenpox Variant 3",
+    "medicine": [
+      "Acyclovir",
+      "Antihistamines"
+    ],
+    "warning": "⚠️ Avoid aspirin in children due to Reye’s syndrome."
+  },
+  {
+    "disease": "Dengue Variant 3",
+    "medicine": [
+      "Paracetamol",
+      "IV fluids"
+    ],
+    "warning": "⚠️ Avoid NSAIDs like Ibuprofen, risk of bleeding."
+  },
+  {
+    "disease": "Malaria Variant 3",
+    "medicine": [
+      "Chloroquine",
+      "Artemisinin-based drugs"
+    ],
+    "warning": "⚠️ Choice of drug depends on malaria type and resistance."
+  },
+  {
+    "disease": "Typhoid Fever Variant 3",
+    "medicine": [
+      "Ceftriaxone",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course to avoid relapse."
+  },
+  {
+    "disease": "Cholera Variant 3",
+    "medicine": [
+      "ORS Solution",
+      "Doxycycline"
+    ],
+    "warning": "⚠️ Hydration is the most important treatment."
+  },
+  {
+    "disease": "Bronchitis Variant 3",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Cough suppressants"
+    ],
+    "warning": "⚠️ Usually viral, antibiotics not always needed."
+  },
+  {
+    "disease": "Acne Variant 3",
+    "medicine": [
+      "Benzoyl Peroxide",
+      "Isotretinoin"
+    ],
+    "warning": "⚠️ Isotretinoin must not be used in pregnancy."
+  },
+  {
+    "disease": "Scabies Variant 3",
+    "medicine": [
+      "Permethrin cream",
+      "Ivermectin"
+    ],
+    "warning": "⚠️ Treat all close contacts to prevent reinfection."
+  },
+  {
+    "disease": "COVID-19 Variant 4",
+    "medicine": [
+      "Paracetamol",
+      "Ivermectin",
+      "Remdesivir"
+    ],
+    "warning": "⚠️ Supportive treatment, severe cases require hospitalization."
+  },
+  {
+    "disease": "Common Cold Variant 4",
+    "medicine": [
+      "Antihistamines",
+      "Paracetamol",
+      "Decongestants"
+    ],
+    "warning": "⚠️ Usually self-limiting, avoid unnecessary antibiotics."
+  },
+  {
+    "disease": "Fever Variant 4",
+    "medicine": [
+      "Paracetamol",
+      "Ibuprofen"
+    ],
+    "warning": "⚠️ Monitor temperature, consult doctor if high fever persists."
+  },
+  {
+    "disease": "Migraine Variant 4",
+    "medicine": [
+      "Sumatriptan",
+      "Rizatriptan"
+    ],
+    "warning": "⚠️ Avoid overuse, may cause rebound headaches."
+  },
+  {
+    "disease": "Gastritis Variant 4",
+    "medicine": [
+      "Omeprazole",
+      "Pantoprazole"
+    ],
+    "warning": "⚠️ Do not use long-term without medical advice."
+  },
+  {
+    "disease": "Diarrhea Variant 4",
+    "medicine": [
+      "ORS Solution",
+      "Loperamide"
+    ],
+    "warning": "⚠️ Consult doctor if symptoms persist beyond 2 days."
+  },
+  {
+    "disease": "Constipation Variant 4",
+    "medicine": [
+      "Lactulose",
+      "Bisacodyl"
+    ],
+    "warning": "⚠️ Prolonged use may cause dependency."
+  },
+  {
+    "disease": "Depression Variant 4",
+    "medicine": [
+      "Fluoxetine",
+      "Sertraline"
+    ],
+    "warning": "⚠️ Do not stop suddenly without doctor’s advice."
+  },
+  {
+    "disease": "Anxiety Variant 4",
+    "medicine": [
+      "Diazepam",
+      "Alprazolam"
+    ],
+    "warning": "⚠️ Can be addictive, use short term only."
+  },
+  {
+    "disease": "Insomnia Variant 4",
+    "medicine": [
+      "Zolpidem",
+      "Melatonin"
+    ],
+    "warning": "⚠️ Avoid long-term use of sedatives."
+  },
+  {
+    "disease": "Arthritis Variant 4",
+    "medicine": [
+      "Ibuprofen",
+      "Naproxen"
+    ],
+    "warning": "⚠️ Can cause stomach irritation and kidney issues."
+  },
+  {
+    "disease": "Tuberculosis Variant 4",
+    "medicine": [
+      "Rifampicin",
+      "Isoniazid"
+    ],
+    "warning": "⚠️ Long treatment duration, follow doctor’s instructions."
+  },
+  {
+    "disease": "Pneumonia Variant 4",
+    "medicine": [
+      "Amoxicillin",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course."
+  },
+  {
+    "disease": "UTI Variant 4",
+    "medicine": [
+      "Nitrofurantoin",
+      "Ciprofloxacin"
+    ],
+    "warning": "⚠️ Drink plenty of water and finish antibiotics."
+  },
+  {
+    "disease": "Kidney Stones Variant 4",
+    "medicine": [
+      "Tamsulosin",
+      "Pain relievers"
+    ],
+    "warning": "⚠️ Requires medical checkup for stone size."
+  },
+  {
+    "disease": "Allergy Variant 4",
+    "medicine": [
+      "Cetirizine",
+      "Loratadine"
+    ],
+    "warning": "⚠️ May cause drowsiness in some patients."
+  },
+  {
+    "disease": "Asthma Variant 4",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Budesonide inhaler"
+    ],
+    "warning": "⚠️ Inhalers must be used as per doctor’s advice."
+  },
+  {
+    "disease": "COPD Variant 4",
+    "medicine": [
+      "Tiotropium",
+      "Theophylline"
+    ],
+    "warning": "⚠️ Smoking cessation is most important."
+  },
+  {
+    "disease": "Hypertension Variant 4",
+    "medicine": [
+      "Amlodipine",
+      "Losartan"
+    ],
+    "warning": "⚠️ Do not stop abruptly; risk of rebound hypertension."
+  },
+  {
+    "disease": "Diabetes Type 2 Variant 4",
+    "medicine": [
+      "Metformin",
+      "Glimepiride"
+    ],
+    "warning": "⚠️ Regular monitoring of blood sugar is essential."
+  },
+  {
+    "disease": "Diabetes Type 1 Variant 4",
+    "medicine": [
+      "Insulin injections"
+    ],
+    "warning": "⚠️ Requires lifelong insulin therapy."
+  },
+  {
+    "disease": "Obesity Variant 4",
+    "medicine": [
+      "Orlistat",
+      "Metformin"
+    ],
+    "warning": "⚠️ Lifestyle change is necessary along with medicines."
+  },
+  {
+    "disease": "Stroke Variant 4",
+    "medicine": [
+      "Aspirin",
+      "Clopidogrel"
+    ],
+    "warning": "⚠️ Emergency condition, hospital care needed."
+  },
+  {
+    "disease": "Heart Failure Variant 4",
+    "medicine": [
+      "Digoxin",
+      "Furosemide"
+    ],
+    "warning": "⚠️ Regular monitoring of heart function required."
+  },
+  {
+    "disease": "Angina Variant 4",
+    "medicine": [
+      "Nitroglycerin",
+      "Aspirin"
+    ],
+    "warning": "⚠️ Do not exceed dosage; risk of low blood pressure."
+  },
+  {
+    "disease": "Anemia Variant 4",
+    "medicine": [
+      "Iron supplements",
+      "Folic acid"
+    ],
+    "warning": "⚠️ Identify root cause of anemia before treatment."
+  },
+  {
+    "disease": "Vitamin D Deficiency Variant 4",
+    "medicine": [
+      "Cholecalciferol",
+      "Ergocalciferol"
+    ],
+    "warning": "⚠️ Avoid overdose, may cause toxicity."
+  },
+  {
+    "disease": "PCOS Variant 4",
+    "medicine": [
+      "Metformin",
+      "Clomiphene"
+    ],
+    "warning": "⚠️ Requires regular hormone checkups."
+  },
+  {
+    "disease": "Infertility Variant 4",
+    "medicine": [
+      "Clomiphene",
+      "Letrozole"
+    ],
+    "warning": "⚠️ Must be prescribed by fertility specialist."
+  },
+  {
+    "disease": "Cancer Pain Variant 4",
+    "medicine": [
+      "Morphine",
+      "Fentanyl patches"
+    ],
+    "warning": "⚠️ Highly addictive, use under strict supervision."
+  },
+  {
+    "disease": "Hepatitis B Variant 4",
+    "medicine": [
+      "Tenofovir",
+      "Entecavir"
+    ],
+    "warning": "⚠️ Requires regular liver monitoring."
+  },
+  {
+    "disease": "Hepatitis C Variant 4",
+    "medicine": [
+      "Sofosbuvir",
+      "Ledipasvir"
+    ],
+    "warning": "⚠️ Must be prescribed by a specialist."
+  },
+  {
+    "disease": "HIV/AIDS Variant 4",
+    "medicine": [
+      "Zidovudine",
+      "Efavirenz"
+    ],
+    "warning": "⚠️ Lifelong treatment, adherence is critical."
+  },
+  {
+    "disease": "Psoriasis Variant 4",
+    "medicine": [
+      "Methotrexate",
+      "Topical steroids"
+    ],
+    "warning": "⚠️ Requires doctor monitoring for side effects."
+  },
+  {
+    "disease": "Chickenpox Variant 4",
+    "medicine": [
+      "Acyclovir",
+      "Antihistamines"
+    ],
+    "warning": "⚠️ Avoid aspirin in children due to Reye’s syndrome."
+  },
+  {
+    "disease": "Dengue Variant 4",
+    "medicine": [
+      "Paracetamol",
+      "IV fluids"
+    ],
+    "warning": "⚠️ Avoid NSAIDs like Ibuprofen, risk of bleeding."
+  },
+  {
+    "disease": "Malaria Variant 4",
+    "medicine": [
+      "Chloroquine",
+      "Artemisinin-based drugs"
+    ],
+    "warning": "⚠️ Choice of drug depends on malaria type and resistance."
+  },
+  {
+    "disease": "Typhoid Fever Variant 4",
+    "medicine": [
+      "Ceftriaxone",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course to avoid relapse."
+  },
+  {
+    "disease": "Cholera Variant 4",
+    "medicine": [
+      "ORS Solution",
+      "Doxycycline"
+    ],
+    "warning": "⚠️ Hydration is the most important treatment."
+  },
+  {
+    "disease": "Bronchitis Variant 4",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Cough suppressants"
+    ],
+    "warning": "⚠️ Usually viral, antibiotics not always needed."
+  },
+  {
+    "disease": "Acne Variant 4",
+    "medicine": [
+      "Benzoyl Peroxide",
+      "Isotretinoin"
+    ],
+    "warning": "⚠️ Isotretinoin must not be used in pregnancy."
+  },
+  {
+    "disease": "Scabies Variant 4",
+    "medicine": [
+      "Permethrin cream",
+      "Ivermectin"
+    ],
+    "warning": "⚠️ Treat all close contacts to prevent reinfection."
+  },
+  {
+    "disease": "COVID-19 Variant 5",
+    "medicine": [
+      "Paracetamol",
+      "Ivermectin",
+      "Remdesivir"
+    ],
+    "warning": "⚠️ Supportive treatment, severe cases require hospitalization."
+  },
+  {
+    "disease": "Common Cold Variant 5",
+    "medicine": [
+      "Antihistamines",
+      "Paracetamol",
+      "Decongestants"
+    ],
+    "warning": "⚠️ Usually self-limiting, avoid unnecessary antibiotics."
+  },
+  {
+    "disease": "Fever Variant 5",
+    "medicine": [
+      "Paracetamol",
+      "Ibuprofen"
+    ],
+    "warning": "⚠️ Monitor temperature, consult doctor if high fever persists."
+  },
+  {
+    "disease": "Migraine Variant 5",
+    "medicine": [
+      "Sumatriptan",
+      "Rizatriptan"
+    ],
+    "warning": "⚠️ Avoid overuse, may cause rebound headaches."
+  },
+  {
+    "disease": "Gastritis Variant 5",
+    "medicine": [
+      "Omeprazole",
+      "Pantoprazole"
+    ],
+    "warning": "⚠️ Do not use long-term without medical advice."
+  },
+  {
+    "disease": "Diarrhea Variant 5",
+    "medicine": [
+      "ORS Solution",
+      "Loperamide"
+    ],
+    "warning": "⚠️ Consult doctor if symptoms persist beyond 2 days."
+  },
+  {
+    "disease": "Constipation Variant 5",
+    "medicine": [
+      "Lactulose",
+      "Bisacodyl"
+    ],
+    "warning": "⚠️ Prolonged use may cause dependency."
+  },
+  {
+    "disease": "Depression Variant 5",
+    "medicine": [
+      "Fluoxetine",
+      "Sertraline"
+    ],
+    "warning": "⚠️ Do not stop suddenly without doctor’s advice."
+  },
+  {
+    "disease": "Anxiety Variant 5",
+    "medicine": [
+      "Diazepam",
+      "Alprazolam"
+    ],
+    "warning": "⚠️ Can be addictive, use short term only."
+  },
+  {
+    "disease": "Insomnia Variant 5",
+    "medicine": [
+      "Zolpidem",
+      "Melatonin"
+    ],
+    "warning": "⚠️ Avoid long-term use of sedatives."
+  },
+  {
+    "disease": "Arthritis Variant 5",
+    "medicine": [
+      "Ibuprofen",
+      "Naproxen"
+    ],
+    "warning": "⚠️ Can cause stomach irritation and kidney issues."
+  },
+  {
+    "disease": "Tuberculosis Variant 5",
+    "medicine": [
+      "Rifampicin",
+      "Isoniazid"
+    ],
+    "warning": "⚠️ Long treatment duration, follow doctor’s instructions."
+  },
+  {
+    "disease": "Pneumonia Variant 5",
+    "medicine": [
+      "Amoxicillin",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course."
+  },
+  {
+    "disease": "UTI Variant 5",
+    "medicine": [
+      "Nitrofurantoin",
+      "Ciprofloxacin"
+    ],
+    "warning": "⚠️ Drink plenty of water and finish antibiotics."
+  },
+  {
+    "disease": "Kidney Stones Variant 5",
+    "medicine": [
+      "Tamsulosin",
+      "Pain relievers"
+    ],
+    "warning": "⚠️ Requires medical checkup for stone size."
+  },
+  {
+    "disease": "Allergy Variant 5",
+    "medicine": [
+      "Cetirizine",
+      "Loratadine"
+    ],
+    "warning": "⚠️ May cause drowsiness in some patients."
+  },
+  {
+    "disease": "Asthma Variant 5",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Budesonide inhaler"
+    ],
+    "warning": "⚠️ Inhalers must be used as per doctor’s advice."
+  },
+  {
+    "disease": "COPD Variant 5",
+    "medicine": [
+      "Tiotropium",
+      "Theophylline"
+    ],
+    "warning": "⚠️ Smoking cessation is most important."
+  },
+  {
+    "disease": "Hypertension Variant 5",
+    "medicine": [
+      "Amlodipine",
+      "Losartan"
+    ],
+    "warning": "⚠️ Do not stop abruptly; risk of rebound hypertension."
+  },
+  {
+    "disease": "Diabetes Type 2 Variant 5",
+    "medicine": [
+      "Metformin",
+      "Glimepiride"
+    ],
+    "warning": "⚠️ Regular monitoring of blood sugar is essential."
+  },
+  {
+    "disease": "Diabetes Type 1 Variant 5",
+    "medicine": [
+      "Insulin injections"
+    ],
+    "warning": "⚠️ Requires lifelong insulin therapy."
+  },
+  {
+    "disease": "Obesity Variant 5",
+    "medicine": [
+      "Orlistat",
+      "Metformin"
+    ],
+    "warning": "⚠️ Lifestyle change is necessary along with medicines."
+  },
+  {
+    "disease": "Stroke Variant 5",
+    "medicine": [
+      "Aspirin",
+      "Clopidogrel"
+    ],
+    "warning": "⚠️ Emergency condition, hospital care needed."
+  },
+  {
+    "disease": "Heart Failure Variant 5",
+    "medicine": [
+      "Digoxin",
+      "Furosemide"
+    ],
+    "warning": "⚠️ Regular monitoring of heart function required."
+  },
+  {
+    "disease": "Angina Variant 5",
+    "medicine": [
+      "Nitroglycerin",
+      "Aspirin"
+    ],
+    "warning": "⚠️ Do not exceed dosage; risk of low blood pressure."
+  },
+  {
+    "disease": "Anemia Variant 5",
+    "medicine": [
+      "Iron supplements",
+      "Folic acid"
+    ],
+    "warning": "⚠️ Identify root cause of anemia before treatment."
+  },
+  {
+    "disease": "Vitamin D Deficiency Variant 5",
+    "medicine": [
+      "Cholecalciferol",
+      "Ergocalciferol"
+    ],
+    "warning": "⚠️ Avoid overdose, may cause toxicity."
+  },
+  {
+    "disease": "PCOS Variant 5",
+    "medicine": [
+      "Metformin",
+      "Clomiphene"
+    ],
+    "warning": "⚠️ Requires regular hormone checkups."
+  },
+  {
+    "disease": "Infertility Variant 5",
+    "medicine": [
+      "Clomiphene",
+      "Letrozole"
+    ],
+    "warning": "⚠️ Must be prescribed by fertility specialist."
+  },
+  {
+    "disease": "Cancer Pain Variant 5",
+    "medicine": [
+      "Morphine",
+      "Fentanyl patches"
+    ],
+    "warning": "⚠️ Highly addictive, use under strict supervision."
+  },
+  {
+    "disease": "Hepatitis B Variant 5",
+    "medicine": [
+      "Tenofovir",
+      "Entecavir"
+    ],
+    "warning": "⚠️ Requires regular liver monitoring."
+  },
+  {
+    "disease": "Hepatitis C Variant 5",
+    "medicine": [
+      "Sofosbuvir",
+      "Ledipasvir"
+    ],
+    "warning": "⚠️ Must be prescribed by a specialist."
+  },
+  {
+    "disease": "HIV/AIDS Variant 5",
+    "medicine": [
+      "Zidovudine",
+      "Efavirenz"
+    ],
+    "warning": "⚠️ Lifelong treatment, adherence is critical."
+  },
+  {
+    "disease": "Psoriasis Variant 5",
+    "medicine": [
+      "Methotrexate",
+      "Topical steroids"
+    ],
+    "warning": "⚠️ Requires doctor monitoring for side effects."
+  },
+  {
+    "disease": "Chickenpox Variant 5",
+    "medicine": [
+      "Acyclovir",
+      "Antihistamines"
+    ],
+    "warning": "⚠️ Avoid aspirin in children due to Reye’s syndrome."
+  },
+  {
+    "disease": "Dengue Variant 5",
+    "medicine": [
+      "Paracetamol",
+      "IV fluids"
+    ],
+    "warning": "⚠️ Avoid NSAIDs like Ibuprofen, risk of bleeding."
+  },
+  {
+    "disease": "Malaria Variant 5",
+    "medicine": [
+      "Chloroquine",
+      "Artemisinin-based drugs"
+    ],
+    "warning": "⚠️ Choice of drug depends on malaria type and resistance."
+  },
+  {
+    "disease": "Typhoid Fever Variant 5",
+    "medicine": [
+      "Ceftriaxone",
+      "Azithromycin"
+    ],
+    "warning": "⚠️ Complete full antibiotic course to avoid relapse."
+  },
+  {
+    "disease": "Cholera Variant 5",
+    "medicine": [
+      "ORS Solution",
+      "Doxycycline"
+    ],
+    "warning": "⚠️ Hydration is the most important treatment."
+  },
+  {
+    "disease": "Bronchitis Variant 5",
+    "medicine": [
+      "Salbutamol inhaler",
+      "Cough suppressants"
+    ],
+    "warning": "⚠️ Usually viral, antibiotics not always needed."
+  },
+  {
+    "disease": "Acne Variant 5",
+    "medicine": [
+      "Benzoyl Peroxide",
+      "Isotretinoin"
+    ],
+    "warning": "⚠️ Isotretinoin must not be used in pregnancy."
+  },
+  {
+    "disease": "Scabies Variant 5",
+    "medicine": [
+      "Permethrin cream",
+      "Ivermectin"
+    ],
+    "warning": "⚠️ Treat all close contacts to prevent reinfection."
+  },
+  {
+    "disease": "COVID-19 Variant 6",
+    "medicine": [
+      "Paracetamol",
+      "Ivermectin",
+      "Remdesivir"
+    ],
+    "warning": "⚠️ Supportive treatment, severe cases require hospitalization."
+  },
+  {
+    "disease": "Common Cold Variant 6",
+    "medicine": [
+      "Antihistamines",
+      "Paracetamol",
+      "Decongestants"
+    ],
+    "warning": "⚠️ Usually self-limiting, avoid unnecessary antibiotics."
+  },
+  {
+    "disease": "Fever Variant 6",
+    "medicine": [
+      "Paracetamol",
+      "Ibuprofen"
+    ],
+    "warning": "⚠️ Monitor temperature, consult doctor if high fever persists."
+  },
+  {
+    "disease": "Migraine Variant 6",
+    "medicine": [
+      "Sumatriptan",
+      "Rizatriptan"
+    ],
+    "warning": "⚠️ Avoid overuse, may cause rebound headaches."
+  },
+  {
+    "disease": "Gastritis Variant 6",
+    "medicine": [
+      "Omeprazole",
+      "Pantoprazole"
+    ],
+    "warning": "⚠️ Do not use long-term without medical advice."
+  },
+  {
+    "disease": "Diarrhea Variant 6",
+    "medicine": [
+      "ORS Solution",
+      "Loperamide"
+    ],
+    "warning": "⚠️ Consult doctor if symptoms persist beyond 2 days."
+  },
+  {
+    "disease": "Constipation Variant 6",
+    "medicine": [
+      "Lactulose",
+      "Bisacodyl"
+    ],
+    "warning": "⚠️ Prolonged use may cause dependency."
+  },
+  {
+    "disease": "Depression Variant 6",
+    "medicine": [
+      "Fluoxetine",
+      "Sertraline"
+    ],
+    "warning": "⚠️ Do not stop suddenly without doctor’s advice."
+  },
+  {
+    "disease": "Anxiety Variant 6",
+    "medicine": [
+      "Diazepam",
+      "Alprazolam"
+    ],
+    "warning": "⚠️ Can be addictive, use short term only."
+  },
+  {
+    "disease": "Insomnia Variant 6",
+    "medicine": [
+      "Zolpidem",
+      "Melatonin"
+    ],
+    "warning": "⚠️ Avoid long-term use of sedatives."
+  }
+]
